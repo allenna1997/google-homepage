@@ -1,9 +1,8 @@
 html{
     font-family: Roboto, Arial;
+    /*src: url("https://ufonts.com/fonts/roboto.html")*/
     font-size: 12px;
 }
-
-
 
 #main-nav-list{
     display: flex;
@@ -20,9 +19,26 @@ a{
     color: black;
 }
 
-#logo{
+main{
     display: block;
     margin: auto;
     position: relative;
-    top: 12%;
+    top: 14%;
+    background-color: black;
 }
+
+
+#logo{
+    display: block;
+    margin: auto;
+}
+
+#searchbar{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 25px;
+}
+
+
+
