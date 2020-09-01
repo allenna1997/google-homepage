@@ -20,13 +20,9 @@ a{
 }
 
 main{
-    display: block;
-    margin: auto;
     position: relative;
     top: 14%;
-    background-color: black;
 }
-
 
 #logo{
     display: block;
@@ -39,6 +35,35 @@ main{
     position: relative;
     top: 25px;
 }
+
+.buttons{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+#search{
+    padding: 7px 10px 7px;
+    position: relative; 
+    right: 4px;
+    font-size: 14px;
+}
+
+#lucky{
+    padding: 7px 10px 7px;
+    position: relative; 
+    left: 4px;
+    font-size: 14px;
+}
+
+#footer-list{
+    display: flex;
+    list-style-type: none; 
+    position: absolute;
+    bottom: 9px;
+}
+
+
 
 
 
