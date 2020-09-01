@@ -1,0 +1,28 @@
+html{
+    font-family: Roboto, Arial;
+    font-size: 12px;
+}
+
+
+
+#main-nav-list{
+    display: flex;
+    list-style-type: none; 
+    justify-content: flex-end;
+    position: relative;
+    top: 9px;
+}
+
+a{
+    display: flex;
+    margin: 7px;
+    text-decoration: none;
+    color: black;
+}
+
+#logo{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 12%;
+}
